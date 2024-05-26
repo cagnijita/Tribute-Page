@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    .mahatmaGandhi{
+        width:900px;
+        height:900px;
+        border:2px solid #100b0beb;
+        border-radius: 13px;
+        margin: 23px;
+        box-shadow:inset -5px 3px 11px 2px #4b3c3ca6;
+    }
+    nav{
+      height:100px;
+      width:100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      gap:10px;
+      color:rgb(43, 41, 41);
+      background-color:rgba(177, 177, 172, 0.171);
+      font-family:sans-serif;
+    }
+    nav p{
+      align-self:center;
+    }
+    main{
+      padding:50px;
+    }
+    #image{
+    width:80%;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin-bottom:32px;
+   
+  }
+  h1{
+    text-align:center;
+  }
+  #img-div{
+    display:flex;
+    flex-direction:column;
+  align-items:center;
+  flex-wrap:wrap;
+  margin-bottom:30px;
+  font-size:22px;
+  }
+  #img-caption{
+    width:700px;
+    min-width:250px;
+    align-self:center;
+    font-weight:700;
+  }
+  ul{
+    margin:12px auto;
+    font-size:21px;
+  }
+  p{
+    display:inline-block;
+    margin:5px 0;
+  }
+  .subinfo{
+    width:25%;
+  }
+  .desciption{
+    width:70%;
+  }
+  footer{
+    margin:31px 0;
+    padding:0;
+    font-size:1.2em;
+    font-family:sans-serif;
+  }
